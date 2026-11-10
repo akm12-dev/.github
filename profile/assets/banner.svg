@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="AKM12 — Advanced Knowledge &amp; Maintenance : outils gratuits pour techniciens informatiques">
+  <rect width="1280" height="300" fill="#0E1726"/>
+  <!-- trame discrète : grille de maintenance -->
+  <g stroke="#17233A" stroke-width="1">
+    <path d="M0 60H1280M0 120H1280M0 180H1280M0 240H1280"/>
+    <path d="M160 0V300M320 0V300M480 0V300M640 0V300M800 0V300M960 0V300M1120 0V300"/>
+  </g>
+  <rect x="0" y="0" width="10" height="300" fill="#0A5FDB"/>
+  <text x="80" y="150" font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight="900" font-size="112" letter-spacing="-2" fill="#FFFFFF">AKM<tspan fill="#2F7BEB">12</tspan></text>
+  <text x="84" y="196" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" letter-spacing="4" fill="#AAB6C6">ADVANCED KNOWLEDGE &amp; MAINTENANCE</text>
+  <text x="84" y="244" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#FFFFFF">Outils gratuits pour les techniciens informatiques</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">
+    <rect x="860" y="70" width="340" height="44" rx="8" fill="#17233A" stroke="#22314D"/>
+    <text x="884" y="98" fill="#9CC2FA">Impression et numérisation</text>
+    <rect x="860" y="128" width="340" height="44" rx="8" fill="#17233A" stroke="#22314D"/>
+    <text x="884" y="156" fill="#9CC2FA">Disques et stockage</text>
+    <rect x="860" y="186" width="340" height="44" rx="8" fill="#17233A" stroke="#22314D"/>
+    <text x="884" y="214" fill="#9CC2FA">Gratuit · sans inscription</text>
+  </g>
+</svg>
