@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>Des outils simples pour les interventions de tous les jours</b> : imprimantes, numérisation, disques.<br>
+  <b>Des outils simples pour les interventions de tous les jours</b> : imprimantes, numérisation, disques, télémaintenance.<br>
   Chaque logiciel est gratuit, vérifiable (empreinte SHA-256) et accompagné d’un guide PDF.
 </p>
 
@@ -72,6 +72,21 @@ Configure le scan vers dossier et le scan vers e-mail des multifonctions Toshiba
 [**Télécharger**](https://akm12.com/logiciels/toshiba-lexmark-scan-setup#recuperer) &nbsp;·&nbsp; [Code source](https://github.com/akm12-dev/toshiba-lexmark-scan-setup) &nbsp;·&nbsp; [Guide PDF](https://akm12.com/logiciels/toshiba-lexmark-scan-setup#documentation)
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://akm12.com/logiciels/eyecontrol"><img src="assets/eyecontrol.png" alt="Capture d’écran de EyeControl" width="100%"></a>
+
+### [EyeControl](https://akm12.com/logiciels/eyecontrol)
+
+Console de télémaintenance qui s’ouvre dans le terminal : tapez eyecontrol dans CMD, PowerShell ou Linux.
+
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.software.eyecontrol.version&label=version&color=0A5FDB&labelColor=0E1726&style=flat-square&cacheSeconds=1800&prefix=v" alt="version"> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.software.eyecontrol.downloads&label=t%C3%A9l%C3%A9chargements&color=0A5FDB&labelColor=0E1726&style=flat-square&cacheSeconds=1800" alt="téléchargements"> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.repos.eyecontrol.total&label=clones&color=22314D&labelColor=0E1726&style=flat-square&cacheSeconds=1800" alt="clones">
+
+**Windows 10 / 11 · Linux** · Télémaintenance · Gratuit
+
+[**Télécharger**](https://akm12.com/logiciels/eyecontrol#recuperer) &nbsp;·&nbsp; [Code source](https://github.com/akm12-dev/eyecontrol) &nbsp;·&nbsp; [Guide PDF](https://akm12.com/logiciels/eyecontrol#documentation)
+</td>
+</tr>
 </table>
 
 <sub>Compteurs réels relevés chez GitHub toutes les heures. Les guides PDF et les fichiers d’empreintes ne sont pas comptés comme téléchargements.</sub>
@@ -115,6 +130,12 @@ git clone https://github.com/akm12-dev/canon-scan-setup.git
 
 ```bash
 git clone https://github.com/akm12-dev/toshiba-lexmark-scan-setup.git
+```
+
+**EyeControl**
+
+```bash
+git clone https://github.com/akm12-dev/eyecontrol.git
 ```
 
 </details>
@@ -164,6 +185,13 @@ Comparez le résultat avec l’empreinte indiquée sur la fiche du logiciel, ou 
 |---|---|
 | Matériel | Multifonctions Toshiba e-STUDIO (TopAccess) et Lexmark (Embedded Web Server) |
 
+**EyeControl**
+
+| | |
+|---|---|
+| Systèmes | Windows 10 / 11 (CMD, PowerShell, Windows Terminal) ; Linux avec pipx (non encore essayé sur Kali) |
+| Version 0.1.0 | Console interactive seule : les commandes de connexion à distance ne sont pas encore disponibles |
+
 </details>
 
 <details>
@@ -181,5 +209,5 @@ Code consultable, tous droits réservés : vous pouvez lire, cloner et compiler 
   <a href="https://akm12.com/logiciels">Tous les logiciels</a> &nbsp;·&nbsp;
   <a href="https://akm12.com/documentation">Documentation</a> &nbsp;·&nbsp;
   <a href="https://github.com/akm12-dev/releases/releases">Versions publiées</a>
-  <br><sub>Chaîne YouTube AKM12 : bientôt disponible.</sub>
+  <br><sub>Chaîne YouTube : <a href="https://www.youtube.com/@AKM12-tech">AKM12 - Par un tech, pour les tech.</a></sub>
 </p>

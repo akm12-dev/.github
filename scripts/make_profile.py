@@ -35,6 +35,9 @@ SOFTWARE = [
     ("toshiba-lexmark-scan-setup", "Toshiba &amp; Lexmark Scan Setup",
      "Configure le scan vers dossier et le scan vers e-mail des multifonctions Toshiba et Lexmark.",
      "Windows", "Numérisation"),
+    ("eyecontrol", "EyeControl",
+     "Console de télémaintenance qui s’ouvre dans le terminal : tapez eyecontrol dans CMD, PowerShell ou Linux.",
+     "Windows 10 / 11 · Linux", "Télémaintenance"),
 ]
 
 COMPAT = {
@@ -47,6 +50,10 @@ COMPAT = {
     ],
     "canon-scan-setup": [("Matériel", "Imprimantes multifonctions Canon compatibles (Remote UI)")],
     "toshiba-lexmark-scan-setup": [("Matériel", "Multifonctions Toshiba e-STUDIO (TopAccess) et Lexmark (Embedded Web Server)")],
+    "eyecontrol": [
+        ("Systèmes", "Windows 10 / 11 (CMD, PowerShell, Windows Terminal) ; Linux avec pipx (non encore essayé sur Kali)"),
+        ("Version 0.1.0", "Console interactive seule : les commandes de connexion à distance ne sont pas encore disponibles"),
+    ],
 }
 
 
@@ -92,7 +99,7 @@ readme = f"""<p align="center">
 </p>
 
 <p align="center">
-  <b>Des outils simples pour les interventions de tous les jours</b> : imprimantes, numérisation, disques.<br>
+  <b>Des outils simples pour les interventions de tous les jours</b> : imprimantes, numérisation, disques, télémaintenance.<br>
   Chaque logiciel est gratuit, vérifiable (empreinte SHA-256) et accompagné d’un guide PDF.
 </p>
 
@@ -162,7 +169,7 @@ Code consultable, tous droits réservés : vous pouvez lire, cloner et compiler 
   <a href="{SITE}/logiciels">Tous les logiciels</a> &nbsp;·&nbsp;
   <a href="{SITE}/documentation">Documentation</a> &nbsp;·&nbsp;
   <a href="https://github.com/akm12-dev/releases/releases">Versions publiées</a>
-  <br><sub>Chaîne YouTube AKM12 : bientôt disponible.</sub>
+  <br><sub>Chaîne YouTube : <a href="https://www.youtube.com/@AKM12-tech">AKM12 - Par un tech, pour les tech.</a></sub>
 </p>
 """
 
