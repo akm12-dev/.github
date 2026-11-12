@@ -78,7 +78,7 @@ Configure le scan vers dossier et le scan vers e-mail des multifonctions Toshiba
 
 ### [EyeControl](https://akm12.com/logiciels/eyecontrol)
 
-Console de télémaintenance qui s’ouvre dans le terminal : tapez eyecontrol dans CMD, PowerShell ou Linux.
+Console de télémaintenance dans le terminal : connect et l’ID, la prise en main s’ouvre via RustDesk et le serveur AKM12.
 
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.software.eyecontrol.version&label=version&color=0A5FDB&labelColor=0E1726&style=flat-square&cacheSeconds=1800&prefix=v" alt="version"> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.software.eyecontrol.downloads&label=t%C3%A9l%C3%A9chargements&color=0A5FDB&labelColor=0E1726&style=flat-square&cacheSeconds=1800" alt="téléchargements"> <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fakm12-dev%2Freleases%2Fstats%2Fclones.json&query=%24.repos.eyecontrol.total&label=clones&color=22314D&labelColor=0E1726&style=flat-square&cacheSeconds=1800" alt="clones">
 
@@ -189,8 +189,8 @@ Comparez le résultat avec l’empreinte indiquée sur la fiche du logiciel, ou 
 
 | | |
 |---|---|
-| Systèmes | Windows 10 / 11 (CMD, PowerShell, Windows Terminal) ; Linux avec pipx (non encore essayé sur Kali) |
-| Version 0.1.0 | Console interactive seule : les commandes de connexion à distance ne sont pas encore disponibles |
+| Technicien | Windows 10 / 11 ou Linux (non encore essayé sur Kali), avec RustDesk installé |
+| PC dépanné | Windows, avec le module de akm12.com/assistance (rien à installer) |
 
 </details>
 

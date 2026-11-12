@@ -36,7 +36,7 @@ SOFTWARE = [
      "Configure le scan vers dossier et le scan vers e-mail des multifonctions Toshiba et Lexmark.",
      "Windows", "Numérisation"),
     ("eyecontrol", "EyeControl",
-     "Console de télémaintenance qui s’ouvre dans le terminal : tapez eyecontrol dans CMD, PowerShell ou Linux.",
+     "Console de télémaintenance dans le terminal : connect et l’ID, la prise en main s’ouvre via RustDesk et le serveur AKM12.",
      "Windows 10 / 11 · Linux", "Télémaintenance"),
 ]
 
@@ -51,8 +51,8 @@ COMPAT = {
     "canon-scan-setup": [("Matériel", "Imprimantes multifonctions Canon compatibles (Remote UI)")],
     "toshiba-lexmark-scan-setup": [("Matériel", "Multifonctions Toshiba e-STUDIO (TopAccess) et Lexmark (Embedded Web Server)")],
     "eyecontrol": [
-        ("Systèmes", "Windows 10 / 11 (CMD, PowerShell, Windows Terminal) ; Linux avec pipx (non encore essayé sur Kali)"),
-        ("Version 0.1.0", "Console interactive seule : les commandes de connexion à distance ne sont pas encore disponibles"),
+        ("Technicien", "Windows 10 / 11 ou Linux (non encore essayé sur Kali), avec RustDesk installé"),
+        ("PC dépanné", "Windows, avec le module de akm12.com/assistance (rien à installer)"),
     ],
 }
 
